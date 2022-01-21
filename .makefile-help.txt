@@ -1,0 +1,9 @@
+Help
+----
+
+help:
+    Prints this help command.
+
+zip:
+    Produces the Digest.zip them file for uploading to Ghost.
+
