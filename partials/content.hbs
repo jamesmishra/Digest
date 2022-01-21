@@ -1,9 +1,6 @@
 <header class="gh-article-header gh-canvas">
-    {{#is "post, home"}}
+    {{#is "post"}}
         <div class="gh-article-meta">
-            {{#is "home"}}
-                <span class="gh-article-label">Latest issue</span>
-            {{/is}}
             <time class="gh-article-date" datetime="{{date format="YYYY-MM-DD"}}">{{date}}</time>
         </div>
     {{/is}}
@@ -37,7 +34,7 @@
     {{content}}
 </section>
 
-{{#is "post, home"}}
+{{#is "post"}}
     <footer class="gh-article-footer gh-canvas">
         <nav class="gh-navigation">
             <div class="gh-navigation-previous">
